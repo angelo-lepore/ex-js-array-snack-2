@@ -55,34 +55,34 @@ const books = [
 
 Crea una funzione che somma due numeri.
 
-✔︎ Crea un array (longBooks) con i libri che hanno più di 300 pagine;
+✔︎ Crea un array (<font color="red">longBooks</font>) con i libri che hanno più di 300 pagine;
 
-✔︎ Creare un array (longBooksTitles) che contiene solo i titoli dei libri contenuti in longBooks.
+✔︎ Creare un array (<font color="red">longBooksTitles</font>) che contiene solo i titoli dei libri contenuti in longBooks.
 
 ✔︎ Stampa in console ogni titolo nella console.
 
 ## Snack 2 - Il primo libro scontato
 
-✔︎ Creare un array (availableBooks) che contiene tutti i libri disponibili.
+✔︎ Creare un array (<font color="red">availableBooks</font>) che contiene tutti i libri disponibili.
 
-✔︎ Crea un array (discountedBooks) con gli availableBooks, ciascuno con il prezzo scontato del 20% (mantieni lo stesso formato e arrotonda al centesimo)
+✔︎ Crea un array (<font color="red">discountedBooks</font>) con gli <font color="red">availableBooks</font>, ciascuno con il prezzo scontato del 20% (mantieni lo stesso formato e arrotonda al centesimo)
 
-✔︎ Salva in una variabile (fullPricedBook) il primo elemento di discountedBooks che ha un prezzo intero (senza centesimi).
+✔︎ Salva in una variabile (<font color="red">fullPricedBook</font>) il primo elemento di <font color="red">discountedBooks</font> che ha un prezzo intero (senza centesimi).
 
 ## Snack 3 - Ordinare gli Autori
 
-✔︎ Creare un array (authors) che contiene gli autori dei libri.
+✔︎ Creare un array (<font color="red">authors</font>) che contiene gli autori dei libri.
 
-✔︎ Crea una variabile booleana (areAuthorsAdults) per verificare se gli autori sono tutti maggiorenni.
+✔︎ Crea una variabile booleana (<font color="red">areAuthorsAdults</font>) per verificare se gli autori sono tutti maggiorenni.
 
-✔︎ Ordina l’array authors in base all’età, senza creare un nuovo array.
-(se areAuthorsAdult è true, ordina in ordine crescente, altrimenti in ordine decrescente)
+✔︎ Ordina l’array <font color="red">authors</font> in base all’età, senza creare un nuovo array.
+(se <font color="red">areAuthorsAdults</font> è true, ordina in ordine crescente, altrimenti in ordine decrescente)
 
 ## Snack 4 - Calcola l’età media
 
-✔︎ Creare un array (ages) che contiene le età degli autori dei libri.
+✔︎ Creare un array (<font color="red">ages</font>) che contiene le età degli autori dei libri.
 
-✔︎ Calcola la somma delle età (agesSum) usando reduce.
+✔︎ Calcola la somma delle età (<font color="red">agesSum</font>) usando reduce.
 
 ✔︎ Stampa in console l’età media degli autori dei libri.
 
@@ -99,17 +99,17 @@ per chiamare l'endpoint /users
 Clicca qui per la guida su come installare il Server API Locale!
 ```
 
-Usando la l'API http://localhost:3333/books/{id} usa la combinazione di .map() e Promise.all(), per creare una funzione (getBooks) che a partire da un array di id (ids), ritorna una promise che risolve un array di libri (books).
+Usando la l'API http://localhost:3333/books/{id} usa la combinazione di <font color="red">.map()</font> e <font color="red">Promise.all()</font>, per creare una funzione (<font color="red">getBooks</font>) che a partire da un array di id (<font color="red">ids</font>), ritorna una promise che risolve un array di libri (books).
 Testala con l’array [2, 13, 7, 21, 19] .
 
 ## Snack 6 (Bonus) - Ordina i libri
 
-✔︎ Crea una variabile booleana (areThereAvailableBooks) per verificare se c’è almeno un libro disponibile.
+✔︎ Crea una variabile booleana (<font color="red">areThereAvailableBooks</font>) per verificare se c’è almeno un libro disponibile.
 
-✔︎ Crea un array (booksByPrice) con gli elementi di books ordinati in base al prezzo (crescente).
+✔︎ Crea un array (<font color="red">booksByPrice</font>) con gli elementi di books ordinati in base al prezzo (crescente).
 
-✔︎ Ordina l’array booksByPricein base alla disponibilità (prima quelli disponibili), senza creare un nuovo array.
+✔︎ Ordina l’array <font color="red">booksByPricein</font> base alla disponibilità (prima quelli disponibili), senza creare un nuovo array.
 
 ## Snack 7 (Bonus) - Analizza i tag
 
-Usa reduce per creare un oggetto (tagCounts) che conta quante volte ogni tag viene usato tra i libri.
+Usa <font color="red">reduce</font> per creare un oggetto (<font color="red">tagCounts</font>) che conta quante volte ogni tag viene usato tra i libri.
