@@ -56,5 +56,7 @@ const longBooksTitles = longBooks.map((books) => books.title);
 console.log(longBooksTitles);
 
 // Stampa in console ogni titolo nella console.
-console.log(longBooksTitles[0]);
-console.log(longBooksTitles[1]);
+
+longBooksTitles.forEach((title) => {
+  console.log(title);
+});
