@@ -108,7 +108,7 @@ Testala con l’array [2, 13, 7, 21, 19] .
 
 ✔︎ Crea un array (<font color="red">booksByPrice</font>) con gli elementi di books ordinati in base al prezzo (crescente).
 
-✔︎ Ordina l’array <font color="red">booksByPricein</font> base alla disponibilità (prima quelli disponibili), senza creare un nuovo array.
+✔︎ Ordina l’array <font color="red">booksByPrice</font> in base alla disponibilità (prima quelli disponibili), senza creare un nuovo array.
 
 ## Snack 7 (Bonus) - Analizza i tag
 
